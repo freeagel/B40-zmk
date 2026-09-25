@@ -1,0 +1,858 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='2400' height='1600' viewBox='0 0 2400 1600' role='img' aria-labelledby='title desc'>
+<title id="title">B40 ZMK 4×10 레이어 맵</title>
+<desc id="desc">Base, Number, Number Shift, Nav, Management 다섯 레이어의 정확한 4행 10열 키 배치</desc>
+<style>
+  :root { color-scheme: dark; }
+  .bg { fill: #0d1118; }
+  .panel { fill: #141b25; stroke: #2d3a4c; stroke-width: 2; }
+  .panel-title { fill: #f2f5fa; font: 700 30px Inter, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  .panel-hint { fill: #91a0b5; font: 400 17px Inter, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  .key { stroke: #48576b; stroke-width: 2; }
+  .normal { fill: #222c39; }
+  .layer { fill: #6d5dfc; stroke: #a99fff; }
+  .nav { fill: #0f7189; stroke: #54c3db; }
+  .system { fill: #a85f1d; stroke: #e3a55f; }
+  .transparent { fill: #171e28; stroke: #303b49; }
+  .key-label { fill: #f4f7fb; text-anchor: middle; font: 600 20px Inter, "Noto Sans KR", "Malgun Gothic", sans-serif; pointer-events: none; }
+  .key-label.small { font-size: 16px; }
+  .key-label.tiny { font-size: 14px; }
+  .transparent + .key-label { fill: #637086; }
+  .header { fill: #f6f8fb; font: 800 38px Inter, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  .subheader { fill: #91a0b5; font: 400 18px Inter, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+  .legend { fill: #aeb9c9; font: 500 17px Inter, "Noto Sans KR", "Malgun Gothic", sans-serif; }
+</style>
+<rect class="bg" width="2400" height="1600"/>
+<text class="header" x="90" y="58">B40 ZMK · 4×10 Ortholinear Layer Map</text>
+<text class="subheader" x="90" y="91">현재 펌웨어 기준 · Scroll 고정 속도 30 / 가속 없음 · 점(·)은 Base 키 동작 통과</text>
+<g class='layer-panel' data-layer-index='0' data-layer-name='Base · 기본'>
+<rect class='panel' x='90' y='120' width='1100' height='415' rx='24'/>
+<text class='panel-title' x='118' y='162'>Base · 기본</text>
+<text class='panel-hint' x='118' y='189'>기본 입력 — 보라색 키를 누르는 동안 해당 레이어 활성화</text>
+<g class='key-group' data-key='true' data-index='0' data-label='Q'>
+<rect class='key normal' x='118' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='166.5' y='252'>Q</text>
+</g>
+<g class='key-group' data-key='true' data-index='1' data-label='W'>
+<rect class='key normal' x='223' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='271.5' y='252'>W</text>
+</g>
+<g class='key-group' data-key='true' data-index='2' data-label='E'>
+<rect class='key normal' x='328' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='376.5' y='252'>E</text>
+</g>
+<g class='key-group' data-key='true' data-index='3' data-label='R'>
+<rect class='key normal' x='433' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='481.5' y='252'>R</text>
+</g>
+<g class='key-group' data-key='true' data-index='4' data-label='T'>
+<rect class='key normal' x='538' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='586.5' y='252'>T</text>
+</g>
+<g class='key-group' data-key='true' data-index='5' data-label='Y'>
+<rect class='key normal' x='643' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='691.5' y='252'>Y</text>
+</g>
+<g class='key-group' data-key='true' data-index='6' data-label='U'>
+<rect class='key normal' x='748' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='796.5' y='252'>U</text>
+</g>
+<g class='key-group' data-key='true' data-index='7' data-label='I'>
+<rect class='key normal' x='853' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='901.5' y='252'>I</text>
+</g>
+<g class='key-group' data-key='true' data-index='8' data-label='O'>
+<rect class='key normal' x='958' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1006.5' y='252'>O</text>
+</g>
+<g class='key-group' data-key='true' data-index='9' data-label='P'>
+<rect class='key normal' x='1063' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1111.5' y='252'>P</text>
+</g>
+<g class='key-group' data-key='true' data-index='10' data-label='A'>
+<rect class='key normal' x='118' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='166.5' y='328'>A</text>
+</g>
+<g class='key-group' data-key='true' data-index='11' data-label='S'>
+<rect class='key normal' x='223' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='271.5' y='328'>S</text>
+</g>
+<g class='key-group' data-key='true' data-index='12' data-label='D'>
+<rect class='key normal' x='328' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='376.5' y='328'>D</text>
+</g>
+<g class='key-group' data-key='true' data-index='13' data-label='F'>
+<rect class='key normal' x='433' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='481.5' y='328'>F</text>
+</g>
+<g class='key-group' data-key='true' data-index='14' data-label='G'>
+<rect class='key normal' x='538' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='586.5' y='328'>G</text>
+</g>
+<g class='key-group' data-key='true' data-index='15' data-label='H'>
+<rect class='key normal' x='643' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='691.5' y='328'>H</text>
+</g>
+<g class='key-group' data-key='true' data-index='16' data-label='J'>
+<rect class='key normal' x='748' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='796.5' y='328'>J</text>
+</g>
+<g class='key-group' data-key='true' data-index='17' data-label='K'>
+<rect class='key normal' x='853' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='901.5' y='328'>K</text>
+</g>
+<g class='key-group' data-key='true' data-index='18' data-label='L'>
+<rect class='key normal' x='958' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1006.5' y='328'>L</text>
+</g>
+<g class='key-group' data-key='true' data-index='19' data-label='Bksp'>
+<rect class='key normal' x='1063' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1111.5' y='328'>Bksp</text>
+</g>
+<g class='key-group' data-key='true' data-index='20' data-label='Z'>
+<rect class='key normal' x='118' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='166.5' y='404'>Z</text>
+</g>
+<g class='key-group' data-key='true' data-index='21' data-label='X'>
+<rect class='key normal' x='223' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='271.5' y='404'>X</text>
+</g>
+<g class='key-group' data-key='true' data-index='22' data-label='C'>
+<rect class='key normal' x='328' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='376.5' y='404'>C</text>
+</g>
+<g class='key-group' data-key='true' data-index='23' data-label='V'>
+<rect class='key normal' x='433' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='481.5' y='404'>V</text>
+</g>
+<g class='key-group' data-key='true' data-index='24' data-label='B'>
+<rect class='key normal' x='538' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='586.5' y='404'>B</text>
+</g>
+<g class='key-group' data-key='true' data-index='25' data-label='N'>
+<rect class='key normal' x='643' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='691.5' y='404'>N</text>
+</g>
+<g class='key-group' data-key='true' data-index='26' data-label='M'>
+<rect class='key normal' x='748' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='796.5' y='404'>M</text>
+</g>
+<g class='key-group' data-key='true' data-index='27' data-label=','>
+<rect class='key normal' x='853' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='901.5' y='404'>,</text>
+</g>
+<g class='key-group' data-key='true' data-index='28' data-label='.'>
+<rect class='key normal' x='958' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1006.5' y='404'>.</text>
+</g>
+<g class='key-group' data-key='true' data-index='29' data-label='RShift'>
+<rect class='key normal' x='1063' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1111.5' y='404'>RShift</text>
+</g>
+<g class='key-group' data-key='true' data-index='30' data-label='LShift'>
+<rect class='key normal' x='118' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='166.5' y='480'>LShift</text>
+</g>
+<g class='key-group' data-key='true' data-index='31' data-label='LCtrl'>
+<rect class='key normal' x='223' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='271.5' y='480'>LCtrl</text>
+</g>
+<g class='key-group' data-key='true' data-index='32' data-label='LAlt'>
+<rect class='key normal' x='328' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='376.5' y='480'>LAlt</text>
+</g>
+<g class='key-group' data-key='true' data-index='33' data-label='NumShift'>
+<rect class='key layer' x='433' y='440' width='97' height='68' rx='12'/>
+<text class='key-label small' x='481.5' y='480'>NumShift</text>
+</g>
+<g class='key-group' data-key='true' data-index='34' data-label='Number'>
+<rect class='key layer' x='538' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='586.5' y='480'>Number</text>
+</g>
+<g class='key-group' data-key='true' data-index='35' data-label='Space'>
+<rect class='key normal' x='643' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='691.5' y='480'>Space</text>
+</g>
+<g class='key-group' data-key='true' data-index='36' data-label='Nav'>
+<rect class='key layer' x='748' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='796.5' y='480'>Nav</text>
+</g>
+<g class='key-group' data-key='true' data-index='37' data-label='-'>
+<rect class='key normal' x='853' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='901.5' y='480'>-</text>
+</g>
+<g class='key-group' data-key='true' data-index='38' data-label=';'>
+<rect class='key normal' x='958' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1006.5' y='480'>;</text>
+</g>
+<g class='key-group' data-key='true' data-index='39' data-label='Enter'>
+<rect class='key normal' x='1063' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1111.5' y='480'>Enter</text>
+</g>
+</g>
+<g class='layer-panel' data-layer-index='1' data-layer-name='Number · 숫자'>
+<rect class='panel' x='1210' y='120' width='1100' height='415' rx='24'/>
+<text class='panel-title' x='1238' y='162'>Number · 숫자</text>
+<text class='panel-hint' x='1238' y='189'>Base의 Number 키를 누른 상태</text>
+<g class='key-group' data-key='true' data-index='0' data-label='1'>
+<rect class='key normal' x='1238' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1286.5' y='252'>1</text>
+</g>
+<g class='key-group' data-key='true' data-index='1' data-label='2'>
+<rect class='key normal' x='1343' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1391.5' y='252'>2</text>
+</g>
+<g class='key-group' data-key='true' data-index='2' data-label='3'>
+<rect class='key normal' x='1448' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1496.5' y='252'>3</text>
+</g>
+<g class='key-group' data-key='true' data-index='3' data-label='4'>
+<rect class='key normal' x='1553' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1601.5' y='252'>4</text>
+</g>
+<g class='key-group' data-key='true' data-index='4' data-label='5'>
+<rect class='key normal' x='1658' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1706.5' y='252'>5</text>
+</g>
+<g class='key-group' data-key='true' data-index='5' data-label='6'>
+<rect class='key normal' x='1763' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1811.5' y='252'>6</text>
+</g>
+<g class='key-group' data-key='true' data-index='6' data-label='7'>
+<rect class='key normal' x='1868' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1916.5' y='252'>7</text>
+</g>
+<g class='key-group' data-key='true' data-index='7' data-label='8'>
+<rect class='key normal' x='1973' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2021.5' y='252'>8</text>
+</g>
+<g class='key-group' data-key='true' data-index='8' data-label='9'>
+<rect class='key normal' x='2078' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2126.5' y='252'>9</text>
+</g>
+<g class='key-group' data-key='true' data-index='9' data-label='0'>
+<rect class='key normal' x='2183' y='212' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2231.5' y='252'>0</text>
+</g>
+<g class='key-group' data-key='true' data-index='10' data-label='Tab'>
+<rect class='key normal' x='1238' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1286.5' y='328'>Tab</text>
+</g>
+<g class='key-group' data-key='true' data-index='11' data-label='·'>
+<rect class='key transparent' x='1343' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1391.5' y='328'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='12' data-label='·'>
+<rect class='key transparent' x='1448' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1496.5' y='328'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='13' data-label='·'>
+<rect class='key transparent' x='1553' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1601.5' y='328'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='14' data-label='·'>
+<rect class='key transparent' x='1658' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1706.5' y='328'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='15' data-label='·'>
+<rect class='key transparent' x='1763' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1811.5' y='328'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='16' data-label='['>
+<rect class='key normal' x='1868' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1916.5' y='328'>[</text>
+</g>
+<g class='key-group' data-key='true' data-index='17' data-label=']'>
+<rect class='key normal' x='1973' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2021.5' y='328'>]</text>
+</g>
+<g class='key-group' data-key='true' data-index='18' data-label='\'>
+<rect class='key normal' x='2078' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2126.5' y='328'>\</text>
+</g>
+<g class='key-group' data-key='true' data-index='19' data-label='Del'>
+<rect class='key system' x='2183' y='288' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2231.5' y='328'>Del</text>
+</g>
+<g class='key-group' data-key='true' data-index='20' data-label='·'>
+<rect class='key transparent' x='1238' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1286.5' y='404'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='21' data-label='·'>
+<rect class='key transparent' x='1343' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1391.5' y='404'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='22' data-label='·'>
+<rect class='key transparent' x='1448' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1496.5' y='404'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='23' data-label='·'>
+<rect class='key transparent' x='1553' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1601.5' y='404'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='24' data-label='·'>
+<rect class='key transparent' x='1658' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1706.5' y='404'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='25' data-label='·'>
+<rect class='key transparent' x='1763' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1811.5' y='404'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='26' data-label='`'>
+<rect class='key normal' x='1868' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1916.5' y='404'>`</text>
+</g>
+<g class='key-group' data-key='true' data-index='27' data-label='-'>
+<rect class='key normal' x='1973' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2021.5' y='404'>-</text>
+</g>
+<g class='key-group' data-key='true' data-index='28' data-label='='>
+<rect class='key normal' x='2078' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2126.5' y='404'>=</text>
+</g>
+<g class='key-group' data-key='true' data-index='29' data-label='/'>
+<rect class='key normal' x='2183' y='364' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2231.5' y='404'>/</text>
+</g>
+<g class='key-group' data-key='true' data-index='30' data-label='LShift'>
+<rect class='key normal' x='1238' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1286.5' y='480'>LShift</text>
+</g>
+<g class='key-group' data-key='true' data-index='31' data-label='·'>
+<rect class='key transparent' x='1343' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1391.5' y='480'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='32' data-label='·'>
+<rect class='key transparent' x='1448' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1496.5' y='480'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='33' data-label='·'>
+<rect class='key transparent' x='1553' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1601.5' y='480'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='34' data-label='·'>
+<rect class='key transparent' x='1658' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1706.5' y='480'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='35' data-label='·'>
+<rect class='key transparent' x='1763' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1811.5' y='480'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='36' data-label='·'>
+<rect class='key transparent' x='1868' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1916.5' y='480'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='37' data-label='·'>
+<rect class='key transparent' x='1973' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2021.5' y='480'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='38' data-label='&apos;'>
+<rect class='key normal' x='2078' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2126.5' y='480'>&apos;</text>
+</g>
+<g class='key-group' data-key='true' data-index='39' data-label='·'>
+<rect class='key transparent' x='2183' y='440' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2231.5' y='480'>·</text>
+</g>
+</g>
+<g class='layer-panel' data-layer-index='2' data-layer-name='Number Shift · 기호'>
+<rect class='panel' x='90' y='570' width='1100' height='415' rx='24'/>
+<text class='panel-title' x='118' y='612'>Number Shift · 기호</text>
+<text class='panel-hint' x='118' y='639'>Base의 NumShift 키를 누른 상태 — 숫자열 Shift 기호</text>
+<g class='key-group' data-key='true' data-index='0' data-label='!'>
+<rect class='key normal' x='118' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='166.5' y='702'>!</text>
+</g>
+<g class='key-group' data-key='true' data-index='1' data-label='@'>
+<rect class='key normal' x='223' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='271.5' y='702'>@</text>
+</g>
+<g class='key-group' data-key='true' data-index='2' data-label='#'>
+<rect class='key normal' x='328' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='376.5' y='702'>#</text>
+</g>
+<g class='key-group' data-key='true' data-index='3' data-label='$'>
+<rect class='key normal' x='433' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='481.5' y='702'>$</text>
+</g>
+<g class='key-group' data-key='true' data-index='4' data-label='%'>
+<rect class='key normal' x='538' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='586.5' y='702'>%</text>
+</g>
+<g class='key-group' data-key='true' data-index='5' data-label='^'>
+<rect class='key normal' x='643' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='691.5' y='702'>^</text>
+</g>
+<g class='key-group' data-key='true' data-index='6' data-label='&amp;'>
+<rect class='key normal' x='748' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='796.5' y='702'>&amp;</text>
+</g>
+<g class='key-group' data-key='true' data-index='7' data-label='*'>
+<rect class='key normal' x='853' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='901.5' y='702'>*</text>
+</g>
+<g class='key-group' data-key='true' data-index='8' data-label='('>
+<rect class='key normal' x='958' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1006.5' y='702'>(</text>
+</g>
+<g class='key-group' data-key='true' data-index='9' data-label=')'>
+<rect class='key normal' x='1063' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1111.5' y='702'>)</text>
+</g>
+<g class='key-group' data-key='true' data-index='10' data-label='Tab'>
+<rect class='key normal' x='118' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='166.5' y='778'>Tab</text>
+</g>
+<g class='key-group' data-key='true' data-index='11' data-label='·'>
+<rect class='key transparent' x='223' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='271.5' y='778'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='12' data-label='·'>
+<rect class='key transparent' x='328' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='376.5' y='778'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='13' data-label='·'>
+<rect class='key transparent' x='433' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='481.5' y='778'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='14' data-label='·'>
+<rect class='key transparent' x='538' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='586.5' y='778'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='15' data-label='·'>
+<rect class='key transparent' x='643' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='691.5' y='778'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='16' data-label='{'>
+<rect class='key normal' x='748' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='796.5' y='778'>{</text>
+</g>
+<g class='key-group' data-key='true' data-index='17' data-label='}'>
+<rect class='key normal' x='853' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='901.5' y='778'>}</text>
+</g>
+<g class='key-group' data-key='true' data-index='18' data-label='|'>
+<rect class='key normal' x='958' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1006.5' y='778'>|</text>
+</g>
+<g class='key-group' data-key='true' data-index='19' data-label='Del'>
+<rect class='key system' x='1063' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1111.5' y='778'>Del</text>
+</g>
+<g class='key-group' data-key='true' data-index='20' data-label='·'>
+<rect class='key transparent' x='118' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='166.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='21' data-label='·'>
+<rect class='key transparent' x='223' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='271.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='22' data-label='·'>
+<rect class='key transparent' x='328' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='376.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='23' data-label='·'>
+<rect class='key transparent' x='433' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='481.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='24' data-label='·'>
+<rect class='key transparent' x='538' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='586.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='25' data-label='·'>
+<rect class='key transparent' x='643' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='691.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='26' data-label='~'>
+<rect class='key normal' x='748' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='796.5' y='854'>~</text>
+</g>
+<g class='key-group' data-key='true' data-index='27' data-label='_'>
+<rect class='key normal' x='853' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='901.5' y='854'>_</text>
+</g>
+<g class='key-group' data-key='true' data-index='28' data-label='+'>
+<rect class='key normal' x='958' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1006.5' y='854'>+</text>
+</g>
+<g class='key-group' data-key='true' data-index='29' data-label='?'>
+<rect class='key normal' x='1063' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1111.5' y='854'>?</text>
+</g>
+<g class='key-group' data-key='true' data-index='30' data-label='LShift'>
+<rect class='key normal' x='118' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='166.5' y='930'>LShift</text>
+</g>
+<g class='key-group' data-key='true' data-index='31' data-label='·'>
+<rect class='key transparent' x='223' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='271.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='32' data-label='·'>
+<rect class='key transparent' x='328' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='376.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='33' data-label='·'>
+<rect class='key transparent' x='433' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='481.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='34' data-label='·'>
+<rect class='key transparent' x='538' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='586.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='35' data-label='·'>
+<rect class='key transparent' x='643' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='691.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='36' data-label='·'>
+<rect class='key transparent' x='748' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='796.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='37' data-label='·'>
+<rect class='key transparent' x='853' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='901.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='38' data-label='&quot;'>
+<rect class='key normal' x='958' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1006.5' y='930'>&quot;</text>
+</g>
+<g class='key-group' data-key='true' data-index='39' data-label='·'>
+<rect class='key transparent' x='1063' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1111.5' y='930'>·</text>
+</g>
+</g>
+<g class='layer-panel' data-layer-index='3' data-layer-name='Nav · 이동/스크롤'>
+<rect class='panel' x='1210' y='570' width='1100' height='415' rx='24'/>
+<text class='panel-title' x='1238' y='612'>Nav · 이동/스크롤</text>
+<text class='panel-hint' x='1238' y='639'>Base의 Nav 키를 누른 상태</text>
+<g class='key-group' data-key='true' data-index='0' data-label='Esc'>
+<rect class='key system' x='1238' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1286.5' y='702'>Esc</text>
+</g>
+<g class='key-group' data-key='true' data-index='1' data-label='Home'>
+<rect class='key normal' x='1343' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1391.5' y='702'>Home</text>
+</g>
+<g class='key-group' data-key='true' data-index='2' data-label='↑'>
+<rect class='key nav' x='1448' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1496.5' y='702'>↑</text>
+</g>
+<g class='key-group' data-key='true' data-index='3' data-label='End'>
+<rect class='key normal' x='1553' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1601.5' y='702'>End</text>
+</g>
+<g class='key-group' data-key='true' data-index='4' data-label='·'>
+<rect class='key transparent' x='1658' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1706.5' y='702'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='5' data-label='·'>
+<rect class='key transparent' x='1763' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1811.5' y='702'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='6' data-label='Left Click'>
+<rect class='key nav' x='1868' y='662' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='1916.5' y='689'><tspan x='1916.5'>Left</tspan><tspan x='1916.5' dy='17'>Click</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='7' data-label='Mouse ↑'>
+<rect class='key nav' x='1973' y='662' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='2021.5' y='689'><tspan x='2021.5'>Mouse</tspan><tspan x='2021.5' dy='17'>↑</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='8' data-label='Right Click'>
+<rect class='key nav' x='2078' y='662' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='2126.5' y='689'><tspan x='2126.5'>Right</tspan><tspan x='2126.5' dy='17'>Click</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='9' data-label='Alt+Tab'>
+<rect class='key system' x='2183' y='662' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2231.5' y='702'>Alt+Tab</text>
+</g>
+<g class='key-group' data-key='true' data-index='10' data-label='Tab'>
+<rect class='key normal' x='1238' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1286.5' y='778'>Tab</text>
+</g>
+<g class='key-group' data-key='true' data-index='11' data-label='←'>
+<rect class='key nav' x='1343' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1391.5' y='778'>←</text>
+</g>
+<g class='key-group' data-key='true' data-index='12' data-label='↓'>
+<rect class='key nav' x='1448' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1496.5' y='778'>↓</text>
+</g>
+<g class='key-group' data-key='true' data-index='13' data-label='→'>
+<rect class='key nav' x='1553' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1601.5' y='778'>→</text>
+</g>
+<g class='key-group' data-key='true' data-index='14' data-label='·'>
+<rect class='key transparent' x='1658' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1706.5' y='778'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='15' data-label='Android Home'>
+<rect class='key system' x='1763' y='738' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='1811.5' y='765'><tspan x='1811.5'>Android</tspan><tspan x='1811.5' dy='17'>Home</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='16' data-label='Mouse ←'>
+<rect class='key nav' x='1868' y='738' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='1916.5' y='765'><tspan x='1916.5'>Mouse</tspan><tspan x='1916.5' dy='17'>←</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='17' data-label='Mouse ↓'>
+<rect class='key nav' x='1973' y='738' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='2021.5' y='765'><tspan x='2021.5'>Mouse</tspan><tspan x='2021.5' dy='17'>↓</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='18' data-label='Mouse →'>
+<rect class='key nav' x='2078' y='738' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='2126.5' y='765'><tspan x='2126.5'>Mouse</tspan><tspan x='2126.5' dy='17'>→</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='19' data-label='Del'>
+<rect class='key system' x='2183' y='738' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2231.5' y='778'>Del</text>
+</g>
+<g class='key-group' data-key='true' data-index='20' data-label='·'>
+<rect class='key transparent' x='1238' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1286.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='21' data-label='·'>
+<rect class='key transparent' x='1343' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1391.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='22' data-label='·'>
+<rect class='key transparent' x='1448' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1496.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='23' data-label='·'>
+<rect class='key transparent' x='1553' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1601.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='24' data-label='Android Back'>
+<rect class='key system' x='1658' y='814' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='1706.5' y='841'><tspan x='1706.5'>Android</tspan><tspan x='1706.5' dy='17'>Back</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='25' data-label='Android Forward'>
+<rect class='key system' x='1763' y='814' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='1811.5' y='841'><tspan x='1811.5'>Android</tspan><tspan x='1811.5' dy='17'>Forward</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='26' data-label='·'>
+<rect class='key transparent' x='1868' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1916.5' y='854'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='27' data-label='Home'>
+<rect class='key normal' x='1973' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2021.5' y='854'>Home</text>
+</g>
+<g class='key-group' data-key='true' data-index='28' data-label='↑'>
+<rect class='key nav' x='2078' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2126.5' y='854'>↑</text>
+</g>
+<g class='key-group' data-key='true' data-index='29' data-label='End'>
+<rect class='key normal' x='2183' y='814' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2231.5' y='854'>End</text>
+</g>
+<g class='key-group' data-key='true' data-index='30' data-label='GUI'>
+<rect class='key system' x='1238' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1286.5' y='930'>GUI</text>
+</g>
+<g class='key-group' data-key='true' data-index='31' data-label='·'>
+<rect class='key transparent' x='1343' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1391.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='32' data-label='·'>
+<rect class='key transparent' x='1448' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1496.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='33' data-label='·'>
+<rect class='key transparent' x='1553' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1601.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='34' data-label='Scroll Up'>
+<rect class='key nav' x='1658' y='890' width='97' height='68' rx='12'/>
+<text class='key-label small' x='1706.5' y='917'><tspan x='1706.5'>Scroll</tspan><tspan x='1706.5' dy='18'>Up</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='35' data-label='Scroll Down'>
+<rect class='key nav' x='1763' y='890' width='97' height='68' rx='12'/>
+<text class='key-label small' x='1811.5' y='917'><tspan x='1811.5'>Scroll</tspan><tspan x='1811.5' dy='18'>Down</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='36' data-label='·'>
+<rect class='key transparent' x='1868' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1916.5' y='930'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='37' data-label='←'>
+<rect class='key nav' x='1973' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2021.5' y='930'>←</text>
+</g>
+<g class='key-group' data-key='true' data-index='38' data-label='↓'>
+<rect class='key nav' x='2078' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2126.5' y='930'>↓</text>
+</g>
+<g class='key-group' data-key='true' data-index='39' data-label='→'>
+<rect class='key nav' x='2183' y='890' width='97' height='68' rx='12'/>
+<text class='key-label ' x='2231.5' y='930'>→</text>
+</g>
+</g>
+<g class='layer-panel' data-layer-index='4' data-layer-name='Management · 관리'>
+<rect class='panel' x='650' y='1020' width='1100' height='415' rx='24'/>
+<text class='panel-title' x='678' y='1062'>Management · 관리</text>
+<text class='panel-hint' x='678' y='1089'>Base에서 Q + P를 함께 누른 상태</text>
+<g class='key-group' data-key='true' data-index='0' data-label='·'>
+<rect class='key transparent' x='678' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='726.5' y='1152'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='1' data-label='·'>
+<rect class='key transparent' x='783' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='831.5' y='1152'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='2' data-label='BT P0'>
+<rect class='key system' x='888' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='936.5' y='1152'>BT P0</text>
+</g>
+<g class='key-group' data-key='true' data-index='3' data-label='BT P1'>
+<rect class='key system' x='993' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1041.5' y='1152'>BT P1</text>
+</g>
+<g class='key-group' data-key='true' data-index='4' data-label='BT P2'>
+<rect class='key system' x='1098' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1146.5' y='1152'>BT P2</text>
+</g>
+<g class='key-group' data-key='true' data-index='5' data-label='BT P3'>
+<rect class='key system' x='1203' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1251.5' y='1152'>BT P3</text>
+</g>
+<g class='key-group' data-key='true' data-index='6' data-label='BT P4'>
+<rect class='key system' x='1308' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1356.5' y='1152'>BT P4</text>
+</g>
+<g class='key-group' data-key='true' data-index='7' data-label='Studio Unlock'>
+<rect class='key system' x='1413' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label tiny' x='1461.5' y='1139'><tspan x='1461.5'>Studio</tspan><tspan x='1461.5' dy='17'>Unlock</tspan></text>
+</g>
+<g class='key-group' data-key='true' data-index='8' data-label='·'>
+<rect class='key transparent' x='1518' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1566.5' y='1152'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='9' data-label='·'>
+<rect class='key transparent' x='1623' y='1112' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1671.5' y='1152'>·</text>
+</g>
+<g class='key-group' data-key='true' data-index='10' data-label='F1'>
+<rect class='key normal' x='678' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='726.5' y='1228'>F1</text>
+</g>
+<g class='key-group' data-key='true' data-index='11' data-label='F2'>
+<rect class='key normal' x='783' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='831.5' y='1228'>F2</text>
+</g>
+<g class='key-group' data-key='true' data-index='12' data-label='F3'>
+<rect class='key normal' x='888' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='936.5' y='1228'>F3</text>
+</g>
+<g class='key-group' data-key='true' data-index='13' data-label='F4'>
+<rect class='key normal' x='993' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1041.5' y='1228'>F4</text>
+</g>
+<g class='key-group' data-key='true' data-index='14' data-label='F5'>
+<rect class='key normal' x='1098' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1146.5' y='1228'>F5</text>
+</g>
+<g class='key-group' data-key='true' data-index='15' data-label='F6'>
+<rect class='key normal' x='1203' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1251.5' y='1228'>F6</text>
+</g>
+<g class='key-group' data-key='true' data-index='16' data-label='F7'>
+<rect class='key normal' x='1308' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1356.5' y='1228'>F7</text>
+</g>
+<g class='key-group' data-key='true' data-index='17' data-label='F8'>
+<rect class='key normal' x='1413' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1461.5' y='1228'>F8</text>
+</g>
+<g class='key-group' data-key='true' data-index='18' data-label='F9'>
+<rect class='key normal' x='1518' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1566.5' y='1228'>F9</text>
+</g>
+<g class='key-group' data-key='true' data-index='19' data-label='F10'>
+<rect class='key normal' x='1623' y='1188' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1671.5' y='1228'>F10</text>
+</g>
+<g class='key-group' data-key='true' data-index='20' data-label='F11'>
+<rect class='key normal' x='678' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='726.5' y='1304'>F11</text>
+</g>
+<g class='key-group' data-key='true' data-index='21' data-label='F12'>
+<rect class='key normal' x='783' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='831.5' y='1304'>F12</text>
+</g>
+<g class='key-group' data-key='true' data-index='22' data-label='PgUp'>
+<rect class='key normal' x='888' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='936.5' y='1304'>PgUp</text>
+</g>
+<g class='key-group' data-key='true' data-index='23' data-label='PgDn'>
+<rect class='key normal' x='993' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1041.5' y='1304'>PgDn</text>
+</g>
+<g class='key-group' data-key='true' data-index='24' data-label='Home'>
+<rect class='key normal' x='1098' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1146.5' y='1304'>Home</text>
+</g>
+<g class='key-group' data-key='true' data-index='25' data-label='End'>
+<rect class='key normal' x='1203' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1251.5' y='1304'>End</text>
+</g>
+<g class='key-group' data-key='true' data-index='26' data-label='Vol-'>
+<rect class='key system' x='1308' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1356.5' y='1304'>Vol-</text>
+</g>
+<g class='key-group' data-key='true' data-index='27' data-label='Vol+'>
+<rect class='key system' x='1413' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1461.5' y='1304'>Vol+</text>
+</g>
+<g class='key-group' data-key='true' data-index='28' data-label='Mute'>
+<rect class='key system' x='1518' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1566.5' y='1304'>Mute</text>
+</g>
+<g class='key-group' data-key='true' data-index='29' data-label='Play/Pause'>
+<rect class='key system' x='1623' y='1264' width='97' height='68' rx='12'/>
+<text class='key-label small' x='1671.5' y='1304'>Play/Pause</text>
+</g>
+<g class='key-group' data-key='true' data-index='30' data-label='Prev'>
+<rect class='key system' x='678' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label ' x='726.5' y='1380'>Prev</text>
+</g>
+<g class='key-group' data-key='true' data-index='31' data-label='Next'>
+<rect class='key system' x='783' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label ' x='831.5' y='1380'>Next</text>
+</g>
+<g class='key-group' data-key='true' data-index='32' data-label='Bright-'>
+<rect class='key system' x='888' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label ' x='936.5' y='1380'>Bright-</text>
+</g>
+<g class='key-group' data-key='true' data-index='33' data-label='Bright+'>
+<rect class='key system' x='993' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1041.5' y='1380'>Bright+</text>
+</g>
+<g class='key-group' data-key='true' data-index='34' data-label='BT Clear'>
+<rect class='key system' x='1098' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label small' x='1146.5' y='1380'>BT Clear</text>
+</g>
+<g class='key-group' data-key='true' data-index='35' data-label='Sleep'>
+<rect class='key system' x='1203' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1251.5' y='1380'>Sleep</text>
+</g>
+<g class='key-group' data-key='true' data-index='36' data-label='BT Clear All'>
+<rect class='key system' x='1308' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label small' x='1356.5' y='1380'>BT Clear All</text>
+</g>
+<g class='key-group' data-key='true' data-index='37' data-label='Reset'>
+<rect class='key system' x='1413' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1461.5' y='1380'>Reset</text>
+</g>
+<g class='key-group' data-key='true' data-index='38' data-label='Undo'>
+<rect class='key system' x='1518' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1566.5' y='1380'>Undo</text>
+</g>
+<g class='key-group' data-key='true' data-index='39' data-label='Redo'>
+<rect class='key system' x='1623' y='1340' width='97' height='68' rx='12'/>
+<text class='key-label ' x='1671.5' y='1380'>Redo</text>
+</g>
+</g>
+<g transform="translate(650 1492)">
+  <rect class="key layer" x="0" y="0" width="26" height="26" rx="6"/><text class="legend" x="38" y="20">레이어 키</text>
+  <rect class="key nav" x="168" y="0" width="26" height="26" rx="6"/><text class="legend" x="206" y="20">이동·스크롤</text>
+  <rect class="key system" x="354" y="0" width="26" height="26" rx="6"/><text class="legend" x="392" y="20">시스템·Bluetooth</text>
+  <rect class="key transparent" x="590" y="0" width="26" height="26" rx="6"/><text class="legend" x="628" y="20">Base 통과</text>
+</g>
+</svg>
