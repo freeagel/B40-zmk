@@ -1,4 +1,5 @@
 .superpowers/
+.worktrees/
 docs/superpowers/
 zmk-config/.zmk/
 zmk-config/.git-local-backup/
