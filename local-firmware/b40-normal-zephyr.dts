@@ -588,7 +588,7 @@
 			compatible = "zmk,behavior-transparent";
 			#binding-cells = < 0x0 >;
 			display-name = "Transparent";
-			phandle = < 0x11 >;
+			phandle = < 0x12 >;
 		};
 		none: none {
 			compatible = "zmk,behavior-none";
@@ -654,7 +654,7 @@
 			compatible = "zmk,behavior-reset";
 			#binding-cells = < 0x0 >;
 			display-name = "Reset";
-			phandle = < 0x15 >;
+			phandle = < 0x16 >;
 		};
 		bootloader: bootload {
 			compatible = "zmk,behavior-reset";
@@ -671,7 +671,7 @@
 			compatible = "zmk,behavior-bluetooth";
 			#binding-cells = < 0x2 >;
 			display-name = "Bluetooth";
-			phandle = < 0x12 >;
+			phandle = < 0x13 >;
 		};
 		ext_power: extpower {
 			compatible = "zmk,behavior-ext-power";
@@ -745,13 +745,13 @@
 			#binding-cells = < 0x0 >;
 			split-peripheral-off-on-press;
 			hold-time-ms = < 0x7d0 >;
-			phandle = < 0x14 >;
+			phandle = < 0x15 >;
 		};
 		studio_unlock: studio_unlock {
 			compatible = "zmk,behavior-studio-unlock";
 			#binding-cells = < 0x0 >;
 			display-name = "Studio Unlock";
-			phandle = < 0x13 >;
+			phandle = < 0x14 >;
 		};
 		mkp: mouse_key_press {
 			compatible = "zmk,behavior-mouse-key-press";
@@ -776,6 +776,16 @@
 			time-to-max-speed-ms = < 0x12c >;
 			acceleration-exponent = < 0x0 >;
 			phandle = < 0x10 >;
+		};
+		z_shift: z_shift {
+			compatible = "zmk,behavior-hold-tap";
+			#binding-cells = < 0x2 >;
+			flavor = "hold-preferred";
+			tapping-term-ms = < 0x3e8 >;
+			retro-tap;
+			bindings = < &kp >, < &kp >;
+			display-name = "Z/Left Shift";
+			phandle = < 0x11 >;
 		};
 	};
 	mkp_input_listener: mkp_input_listener {
@@ -803,7 +813,7 @@
 		compatible = "zmk,keymap";
 		default_layer {
 			display-name = "Base";
-			bindings = < &kp 0x70014 &kp 0x7001a &kp 0x70008 &kp 0x70015 &kp 0x70017 &kp 0x7001c &kp 0x70018 &kp 0x7000c &kp 0x70012 &kp 0x70013 &kp 0x70004 &kp 0x70016 &kp 0x70007 &kp 0x70009 &kp 0x7000a &kp 0x7000b &kp 0x7000d &kp 0x7000e &kp 0x7000f &kp 0x7002a &kp 0x7001d &kp 0x7001b &kp 0x70006 &kp 0x70019 &kp 0x70005 &kp 0x70011 &kp 0x70010 &kp 0x70036 &kp 0x70037 &kp 0x700e5 &kp 0x700e1 &kp 0x700e0 &kp 0x700e2 &mo 0x3 &mo 0x2 &kp 0x7002c &mo 0x4 &kp 0x7002d &kp 0x70033 &kp 0x70028 >;
+			bindings = < &kp 0x70014 &kp 0x7001a &kp 0x70008 &kp 0x70015 &kp 0x70017 &kp 0x7001c &kp 0x70018 &kp 0x7000c &kp 0x70012 &kp 0x70013 &kp 0x70004 &kp 0x70016 &kp 0x70007 &kp 0x70009 &kp 0x7000a &kp 0x7000b &kp 0x7000d &kp 0x7000e &kp 0x7000f &kp 0x7002a &z_shift 0x700e1 0x7001d &kp 0x7001b &kp 0x70006 &kp 0x70019 &kp 0x70005 &kp 0x70011 &kp 0x70010 &kp 0x70036 &kp 0x70037 &kp 0x700e5 &kp 0x700e1 &kp 0x700e0 &kp 0x700e2 &mo 0x3 &mo 0x2 &kp 0x7002c &mo 0x4 &kp 0x7002d &kp 0x70034 &kp 0x70028 >;
 		};
 		management_layer {
 			display-name = "Management";
@@ -811,7 +821,7 @@
 		};
 		number_layer {
 			display-name = "number";
-			bindings = < &kp 0x7001e &kp 0x7001f &kp 0x70020 &kp 0x70021 &kp 0x70022 &kp 0x70023 &kp 0x70024 &kp 0x70025 &kp 0x70026 &kp 0x70027 &kp 0x7002b &trans &trans &trans &trans &trans &kp 0x7002f &kp 0x70030 &kp 0x70031 &kp 0x7004c &trans &trans &trans &trans &trans &trans &kp 0x70035 &kp 0x7002d &kp 0x7002e &kp 0x70038 &kp 0x700e1 &trans &trans &trans &trans &trans &trans &trans &kp 0x70034 &trans >;
+			bindings = < &kp 0x7001e &kp 0x7001f &kp 0x70020 &kp 0x70021 &kp 0x70022 &kp 0x70023 &kp 0x70024 &kp 0x70025 &kp 0x70026 &kp 0x70027 &kp 0x7002b &trans &trans &trans &trans &trans &kp 0x7002f &kp 0x70030 &kp 0x70031 &kp 0x7004c &trans &trans &trans &trans &trans &trans &kp 0x70035 &kp 0x7002d &kp 0x7002e &kp 0x70038 &kp 0x700e1 &trans &trans &trans &trans &trans &trans &trans &kp 0x70033 &trans >;
 		};
 		number_shift_layer {
 			display-name = "number_shift";
