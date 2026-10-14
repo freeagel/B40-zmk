@@ -108,9 +108,9 @@
 <rect class='key normal' x='1063' y='288' width='97' height='68' rx='12'/>
 <text class='key-label ' x='1111.5' y='328'>Bksp</text>
 </g>
-<g class='key-group' data-key='true' data-index='20' data-label='Z'>
+<g class='key-group' data-key='true' data-index='20' data-label='Z / Shift'>
 <rect class='key normal' x='118' y='364' width='97' height='68' rx='12'/>
-<text class='key-label ' x='166.5' y='404'>Z</text>
+<text class='key-label small' x='166.5' y='404'>Z / Shift</text>
 </g>
 <g class='key-group' data-key='true' data-index='21' data-label='X'>
 <rect class='key normal' x='223' y='364' width='97' height='68' rx='12'/>
@@ -180,9 +180,9 @@
 <rect class='key normal' x='853' y='440' width='97' height='68' rx='12'/>
 <text class='key-label ' x='901.5' y='480'>-</text>
 </g>
-<g class='key-group' data-key='true' data-index='38' data-label=';'>
+<g class='key-group' data-key='true' data-index='38' data-label='&apos;'>
 <rect class='key normal' x='958' y='440' width='97' height='68' rx='12'/>
-<text class='key-label ' x='1006.5' y='480'>;</text>
+<text class='key-label ' x='1006.5' y='480'>&apos;</text>
 </g>
 <g class='key-group' data-key='true' data-index='39' data-label='Enter'>
 <rect class='key normal' x='1063' y='440' width='97' height='68' rx='12'/>
@@ -345,9 +345,9 @@
 <rect class='key transparent' x='1973' y='440' width='97' height='68' rx='12'/>
 <text class='key-label ' x='2021.5' y='480'>·</text>
 </g>
-<g class='key-group' data-key='true' data-index='38' data-label='&apos;'>
+<g class='key-group' data-key='true' data-index='38' data-label=';'>
 <rect class='key normal' x='2078' y='440' width='97' height='68' rx='12'/>
-<text class='key-label ' x='2126.5' y='480'>&apos;</text>
+<text class='key-label ' x='2126.5' y='480'>;</text>
 </g>
 <g class='key-group' data-key='true' data-index='39' data-label='·'>
 <rect class='key transparent' x='2183' y='440' width='97' height='68' rx='12'/>
